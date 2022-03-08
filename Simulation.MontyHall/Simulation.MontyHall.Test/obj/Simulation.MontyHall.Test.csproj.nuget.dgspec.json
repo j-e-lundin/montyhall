@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.Test\\Simulation.MontyHall.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\Simulation.MontyHall.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\Simulation.MontyHall.API.csproj",
+        "projectName": "Simulation.MontyHall.API",
+        "projectPath": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\Simulation.MontyHall.API.csproj",
+        "packagesPath": "C:\\Users\\jolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\wshffs01pv\\IT\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://shpension.pkgs.visualstudio.com/_packaging/SHPensionNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.Test\\Simulation.MontyHall.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.Test\\Simulation.MontyHall.Test.csproj",
+        "projectName": "Simulation.MontyHall.Test",
+        "projectPath": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.Test\\Simulation.MontyHall.Test.csproj",
+        "packagesPath": "C:\\Users\\jolu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jolu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\wshffs01pv\\IT\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://shpension.pkgs.visualstudio.com/_packaging/SHPensionNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\Simulation.MontyHall.API.csproj": {
+                "projectPath": "C:\\Users\\jolu\\source\\repos\\Simulation.MontyHall\\Simulation.MontyHall.API\\Simulation.MontyHall.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

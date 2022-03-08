@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulation.MontyHall.API", "Simulation.MontyHall.API\Simulation.MontyHall.API.csproj", "{37D6278F-C41D-4E83-9498-92864BD4C1DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulation.MontyHall.Test", "Simulation.MontyHall.Test\Simulation.MontyHall.Test.csproj", "{7C9983A3-6180-4EF6-871F-65494FD6B773}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D6278F-C41D-4E83-9498-92864BD4C1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D6278F-C41D-4E83-9498-92864BD4C1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D6278F-C41D-4E83-9498-92864BD4C1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D6278F-C41D-4E83-9498-92864BD4C1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9983A3-6180-4EF6-871F-65494FD6B773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9983A3-6180-4EF6-871F-65494FD6B773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9983A3-6180-4EF6-871F-65494FD6B773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9983A3-6180-4EF6-871F-65494FD6B773}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED170329-8057-4DEF-A46C-A452AE130B1A}
+	EndGlobalSection
+EndGlobal
