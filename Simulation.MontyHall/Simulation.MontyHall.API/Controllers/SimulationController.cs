@@ -7,10 +7,10 @@ namespace Simulation.MontyHall.API.Controllers
     [Route("[controller]")]
     public class SimulationController : ControllerBase
     {
-        private readonly ISimulation _simulation;
+        private readonly ISimulation<MontyHallParamaters> _simulation;
         private readonly ILogger<SimulationController> _logger;
 
-        public SimulationController(ILogger<SimulationController> logger, ISimulation simulation)
+        public SimulationController(ILogger<SimulationController> logger, ISimulation<MontyHallParamaters> simulation)
         {
             _logger = logger;
             _simulation = simulation;
@@ -29,7 +29,12 @@ namespace Simulation.MontyHall.API.Controllers
             }
 
             var wins = Enumerable.Range(0, query.Simulations.Value)
-                .Sum(i => _simulation.Simulate(Random.Shared.Next(1, 4), Random.Shared.Next(1, 4), query.ChangeDoors.Value));
+                .Sum(i => _simulation.Simulate(new MontyHallParamaters()
+                {
+                    PlayerDoor = Random.Shared.Next(1, 4),
+                    PrizeDoor = Random.Shared.Next(1, 4),
+                    ChangeDoor = query.ChangeDoors.Value
+                }));
 
             var result = new SimulationResponseModel
             {

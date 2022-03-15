@@ -16,7 +16,7 @@ namespace Simulation.MontyHall.Test
         private const string ExpectedLogMEssage = "Simulation result: Wins 0, Losses 10, Winning percentage 0, Simulations 10";
 
         private static SimulationController? _controller;
-        private static ISimulation _simulation = Substitute.For<ISimulation>();
+        private static ISimulation<MontyHallParamaters> _simulation = Substitute.For<ISimulation<MontyHallParamaters>>();
 
         private static ILogger<SimulationController> _mockLogger = Substitute.For<ILogger<SimulationController>>();
         private readonly SimulationQueryModel _queryInvalidChangeDoors = new () { ChangeDoors = null, Simulations = 10 };
@@ -24,7 +24,7 @@ namespace Simulation.MontyHall.Test
         public SimulationControllerTests()
         {
 
-            _simulation.Simulate(Arg.Any<int>(), Arg.Any<int>(), Arg.Any<bool>()).Returns(0);
+            _simulation.Simulate(Arg.Any<MontyHallParamaters>()).Returns(0);
         }
 
         private static SimulationController MockController()
