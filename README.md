@@ -1,5 +1,6 @@
 # montyhall
 
+A solution to the Monty Hall problem
 Project is run with a Swagger frontend
 
 Application written in C#, using .net 6
